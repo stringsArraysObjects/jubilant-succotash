@@ -11,7 +11,7 @@ const PlantList = ({ plants, message }) => {
                             {plant.default_image ? (
                                 <img src={plant.default_image.small_url} alt={plant.common_name} />
                             ) : (
-                                <img src="\src\assets\img\placeholder_plant.jpg" alt="Default Image" />
+                                <img src="img/rubyRedFleshedKiwi.png" alt="Default Image" />
                             )}
                             <p>Lifecycle: {plant.cycle}</p>
                             <p>Watering: {plant.watering}</p>
@@ -22,7 +22,7 @@ const PlantList = ({ plants, message }) => {
                     <p>{message}</p>
                 )
             ) : (
-                <img src="src\assets\img\splash_plant1.jpg" alt="Greener Thumb Home" />
+                <img src="img/gaintStrawberries.png" alt="Greener Thumb Home" />
             )}
         </div>
     );
