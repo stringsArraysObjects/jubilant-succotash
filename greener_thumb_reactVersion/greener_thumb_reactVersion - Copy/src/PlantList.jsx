@@ -22,7 +22,7 @@ const PlantList = ({ plants, message }) => {
                     <p>{message}</p>
                 )
             ) : (
-                <img src="img/gaintStrawberries.png" alt="" />
+                <img src="img/gaintStrawberries.png" alt="Greener Thumb Home" />
             )}
         </div>
     );
