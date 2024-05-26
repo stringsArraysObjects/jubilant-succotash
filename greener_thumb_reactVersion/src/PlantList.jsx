@@ -11,7 +11,7 @@ const PlantList = ({ plants, message }) => {
                             {plant.default_image ? (
                                 <img src={plant.default_image.small_url} alt={plant.common_name} />
                             ) : (
-                                <img src="img/rubyRedFleshedKiwi.png" alt="Default Image" />
+                                <img src="img/rubyRedFleshedKiwi.png" alt="" />
                             )}
                             <p>Lifecycle: {plant.cycle}</p>
                             <p>Watering: {plant.watering}</p>
